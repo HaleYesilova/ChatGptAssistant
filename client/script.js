@@ -84,6 +84,7 @@ const handleSubmit = async (e) => {
   const messageDiv = document.getElementById(uniqueId);
   // messageDiv.innerHTML = "..."
   loader (messageDiv);
+  
 }
 
 form.addEventListener('submit', handleSubmit);
